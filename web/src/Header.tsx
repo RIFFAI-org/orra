@@ -26,6 +26,7 @@ export default function Header() {
         <button type="button" className="small" aria-label={flip} title={flip}
           onClick={() => { setTheme(light ? 'dark' : 'light'); setLight(!light) }}><Icon n={light ? 'moon' : 'sun'} /></button>
         {user && <button type="button" className="small" title={user.email} onClick={() => authClient.signOut()}>{T.signOut}</button>}
+        <span className="riffai">RIFFAI</span>
       </div>
     </header>
   )

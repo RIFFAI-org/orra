@@ -1,6 +1,6 @@
 /* paper, and markers over satellite imagery, keep these colours whatever the theme */
 :root, .paper, body.lender, .pin, .readout, .leaflet-control-attribution {
-  /* Monochrome structure, colour comes from the imagery; one accent, the lime of the Split logo. */
+  /* RIFFAI identity: monochrome structure, colour comes from the imagery; one accent, the lime of the Split logo. */
   --black: #000; --white: #fff; --gray: #C7C7C7;
   --rule: #2B2B2B; --edge: #6B6B6B; --raise: #0D0D0D; --mute: #8A8A8A;  /* tints of black: thin rules, control edges (>= 3:1), fields, timestamps */
   --accent: #C6F432;  /* 16.4:1 on black */
@@ -40,6 +40,7 @@ header { position: fixed; z-index: 20; top: 0; left: 0; right: 0; height: var(--
 .brand img { height: 26px; display: block; }
 .brand .tag, .meta { color: var(--gray); font-size: 11px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .meta { display: flex; gap: 18px; align-items: center; }
+.meta .riffai { color: var(--white); font-weight: 700; letter-spacing: .24em; }
 .langs { display: flex; align-items: center; gap: 6px; }
 .langs button + button { margin-left: -7px; }  /* one segmented control: shared edge */
 .langs button[aria-pressed=true] { background: var(--white); color: var(--black); border-color: var(--white); }
@@ -296,7 +297,7 @@ body.lender #lender { display: block; max-width: 860px; margin: 0 auto; padding:
   .brand .tag { display: none; }
   header { padding: 0 12px; }
   .meta { gap: 8px; }
-  .langs > .i { display: none; }
+  .meta .riffai, .langs > .i { display: none; }
   .prompt { top: auto; left: 0; right: 0; bottom: 0; width: auto; max-height: 64vh; border-width: 3px 0 0; padding: 16px; }
   .prompt h2 { font-size: 26px; }
   .drawer { top: auto; left: 0; width: auto; height: 76vh; border-left: 0; border-top: 1px solid var(--edge); transform: translateY(100%); }
