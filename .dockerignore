@@ -1,0 +1,12 @@
+.git
+.env
+.venv
+**/__pycache__
+**/*.pyc
+.agents
+.claude
+brand
+deck
+skills-lock.json
+web/node_modules
+web/dist

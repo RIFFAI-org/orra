@@ -1,0 +1,32 @@
+{
+  "name": "orra-web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "server": "node --env-file-if-exists=../.env --watch server.ts",
+    "migrate": "node --env-file-if-exists=../.env server.ts migrate",
+    "build": "tsc && vite build",
+    "start": "node server.ts",
+    "test": "node --test auth.test.ts lines.test.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^2.1.5",
+    "better-auth": "^1.7.10",
+    "hono": "^4.13.13",
+    "leaflet": "^1.9.4",
+    "pg": "^8.23.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.22",
+    "@types/node": "^26.6.5",
+    "@types/pg": "^8.23.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
+  }
+}

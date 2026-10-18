@@ -1,0 +1,17 @@
+[
+  {"id": "maesai", "label": "Mae Sai house (2024 flood)", "lat": 20.3692, "lon": 99.9957,
+   "text": "Buying this house for my parents, both over 70.",
+   "th": {"label": "บ้านแม่สาย (น้ำท่วมปี 2024)", "text": "ซื้อบ้านหลังนี้ให้พ่อแม่ อายุเกิน 70 ทั้งคู่"}},
+  {"id": "maesai-high", "label": "Mae Sai, higher ground", "lat": 20.42, "lon": 99.86,
+   "text": "Buying this house for my parents, both over 70.",
+   "th": {"label": "แม่สาย ที่สูง", "text": "ซื้อบ้านหลังนี้ให้พ่อแม่ อายุเกิน 70 ทั้งคู่"}},
+  {"id": "chiangmai-smoke", "label": "Chiang Mai, burning season", "lat": 18.69, "lon": 98.92,
+   "text": "I have a baby and an old car, renting a ground-floor unit, budget 12,000 baht a month.",
+   "th": {"label": "เชียงใหม่ ช่วงฤดูเผา", "text": "มีลูกเล็กและรถเก่าหนึ่งคัน เช่าห้องชั้นล่าง งบเดือนละ 12,000 บาท"}},
+  {"id": "bangkok-change", "label": "Bangkok fringe, fast growth", "lat": 13.72, "lon": 100.78,
+   "text": "Young couple, both work from home, want somewhere quiet.",
+   "th": {"label": "ชานเมืองกรุงเทพฯ เติบโตเร็ว", "text": "คู่รักวัยหนุ่มสาว ทำงานที่บ้านทั้งคู่ อยากได้ที่เงียบ ๆ"}},
+  {"id": "control", "label": "Quiet control pin", "lat": 13.75, "lon": 100.5,
+   "text": "Single professional buying a condo, no special needs.",
+   "th": {"label": "หมุดควบคุม ย่านเงียบ", "text": "คนทำงานโสด ซื้อคอนโด ไม่มีความต้องการพิเศษ"}}
+]

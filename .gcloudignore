@@ -1,0 +1,4 @@
+# Upload filter for `gcloud run deploy --source .`: same excludes as local docker builds. cache/ stays in.
+.gcloudignore
+.gitignore
+#!include:.dockerignore
